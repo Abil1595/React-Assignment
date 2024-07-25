@@ -2,37 +2,161 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.intro 
+{
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content 
+{
+
+ text-align: left;
+ 
+ color: whitesmoke
+}
+.Curriculum
+{
+  text-align: start;
+  margin-left: 20px;
+  background-color: skyblue;
+  padding: 20px;
+  
+}
+.Curriculum>ul 
+{
+  text-align: left;
+  margin-left: 25px;
+}
+.primary 
+{
+  font-weight: bold;
+  font-size: 30px;
+}
+.primary:hover 
+{
+  color: blue
+}
+.Secondary 
+{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 30px;
+  list-style-type: square;
+}
+.avail 
+{
+ 
+  font-size: 17px;
+  margin-left: 50px;
+  list-style-type: square;
+}
+.primary1
+{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: start;
+  margin-left: 40px;
+}
+.primary1:hover 
+{
+  color: blue
+}
+.image1 
+{
+  width: 90%;
+}
+.image2
+{
+  width: 90%;
+}
+.image3 
+{
+  width: 90%;
+}
+.principal 
+{
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 8px;
+  
+}
+.principal>.image1:hover 
+{
+  transition: 2s;
+  transform: scale(1.1);
+} 
+.Life 
+{
+  text-align: start;
+  margin-left: 30px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Life1
+{
+  text-align: start;
+  margin-left: 80px;
+  padding: 20px;
+  
+  font-size: 20px;
+}
+.address 
+{
+  text-align: start;
+  margin-left: 70px;
+  
+}
+.layout-design 
+{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+.layout-design:hover 
+{
+  color:red;
+}
+.logo-image1
+{
+  width: 20%;
+  border-radius: 15%;
+}
+.inputs
+{
+  width: 45%;
+}
+.footer1 
+{
+  
+  height: 90px;
+  padding: 10px;
+ padding-left: 30px; 
+ color: whitesmoke;
+ font-size: 13px;
+}
+.ri-facebook-fill
+{
+  font-size: 25px;
+  color: blue;
+}
+.ri-instagram-line 
+{
+  font-size: 25px;
+  color: red;
+}
+.ri-twitter-x-line
+{
+  font-size: 23px;
+  color: 000000; 
+}
+.ri-whatsapp-line 
+{
+  font-size: 25px;
+  color: #25D366  ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ri-rocket-2-fill
+{
+  font-size: 20px;
 }
